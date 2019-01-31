@@ -20,9 +20,7 @@ git clone https://github.com/robot-websockets/trainbot-1-commands.git
 # clone the motor-controller inside ~/trainbot-1
 git clone https://github.com/robot-websockets/motor-controller.git
 
-cd motor-controller
-npm install
-cd ..
+see the requirements.txt
 
 # clone the motor-controller inside ~/trainbot-1
 git clone https://github.com/robot-websockets/proximity-tester.git
