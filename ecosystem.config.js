@@ -3,7 +3,7 @@ module.exports = {
         {
             name: 'motors',
             script: '/home/pi/trainbot-1/motor-controller/main.py',
-            args: ['-W', '192.168.55.1:5001'],
+            args: ['-S', '192.168.55.1'],
             interpreter: '/usr/bin/python3.5',
             autorestart: true,
             watch: false
@@ -11,7 +11,7 @@ module.exports = {
         {
             name: 'proximity-sensor',
             script: '/home/pi/trainbot-1/proximity-sensor/distance.py',
-            args: [`--server=192.168.55.1`],
+            args: ['-S', '192.168.55.1'],
             interpreter: '/usr/bin/python3.5',
             autorestart: true,
             watch: false
