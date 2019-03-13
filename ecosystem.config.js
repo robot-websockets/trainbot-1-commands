@@ -9,9 +9,9 @@ module.exports = {
             watch: false
         },
         {
-            name: 'proximity-simulator',
-            script: '/home/pi/trainbot-1/proximity-tester/app.js',
-            args: [`--websocket_address=192.168.55.1:5001`],
+            name: 'proximity-sensor',
+            script: '/home/pi/trainbot-1/proximity-sensor/distance.py',
+            args: [`----server=192.168.55.1`],
             autorestart: true,
             watch: false
         }
