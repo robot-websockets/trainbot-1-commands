@@ -4,7 +4,7 @@ module.exports = {
         {
             name: 'motors',
             script: '/home/pi/trainbot-1/motor-controller/main.py',
-            args: ['-S', `${webSocketServerIpAddress}`],
+            args: ['-S', `${webSocketServerIpAddress}`, '-M', 40],
             interpreter: '/usr/bin/python3.5',
             autorestart: true,
             watch: false
